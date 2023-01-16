@@ -17,27 +17,81 @@
         <div class="p-4 mb-2 bg-dark rounded-3">
             <div class="container-fluid py-5">
                 <img src="assets/extension_icons/icon_128.png" class="img-fluid">
-                <h1 class="display-5 fw-bold">Nifi Utils</h1>
+                <h1 class="display-5 fw-bold"><a href="index.html" style="text-decoration: none; color: white;">Nifi Utils</a></h1>
                 <p class="col fs-4">Manage your production Nifi instances like a pro.</p>
                 <br>
-                <div class="text-center"><h1 style="color: aqua;">Privacy Policy</h1><p>Last updated : 13nth january 2023</p></div>
+                <div class="text-center"><h1 style="color: aqua;">Privacy Policy</h1><p>Last updated : 16nth January 2023</p></div>
             </div>
         </div>
-        <br><br>
-
         <div class="container-fluid">
             <br><br><br><br>
             <div class="row gx-4">
                 <div class="col">
                     <div>
                         <div class="card text-bg-dark">
-                            <h5 class="card-header" style="color: aqua;">Data Collection</h5>
+                            <h5 class="card-header" style="color: aqua;">Data Collection & Usage</h5>
                             <div class="card-body">
-                                <p class="card-text">Nifi Utils has never collected and will never collect any kind of personal information. Period.<br><br></p>
+                                <p class="card-text">Nifi Utils has never collected and will never collect any kind of data.<br>Period. All the data remains inside the extension.<br><br></p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <h5 class="card-header" style="color: aqua;">Analytics</h5>
+                        <div class="card-body">
+                            <p class="card-text">Nifi Utils does not embed/inject/use any functionality for collecting any telemetry/analytics data.</a><br><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row gx-4">
+                <div class="col">
+                    <div>
+                        <div class="card text-bg-dark">
+                            <h5 class="card-header" style="color: aqua;">Website</h5>
+                            <div class="card-body">
+                                <p class="card-text">The website <b>https://chiranjeevikarthik.me/Nifi-Utils</b><br>does not collect any kind of information.<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <div class="card text-bg-dark">
+                            <h5 class="card-header" style="color: aqua;">Donations</h5>
+                            <div class="card-body">
+                                <p class="card-text">Nifi Utils does not accept donations or any other form of financing<br>directly or indirectly.<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row gx-4">
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <h5 class="card-header" style="color: aqua;">Permissions</h5>
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p>The extension`s <a style="color:aqua;text-decoration: none;" href="https://github.com/karthikchiru12/Nifi-Utils-Chrome-Extension/blob/main/manifest.json">manifest</a> has these permissions :</p>
+                                <ul>
+                                    <li><b style="color: aqua;">storage</b> : To cache the fetched/searched process groups.</li><br>
+                                    <li><b style="color: aqua;">activeTab</b> : To get the details about the currently active tab, to check if its a logged in Nifi instance or not.</li><br>
+                                    <li><b style="color: aqua;">tabs</b> : To get the tab details like tab id, url.</li><br>
+                                    <li><b style="color: aqua;">contextMenus</b> : To add a right-click menu shortcut to recently opened Nifi environments through extension.</li><br>
+                                    <li><b style="color: aqua;">identity</b> : To enable the Oauth access to the user`s logged in google account. So user can upload any flow as template to their own google drive using a custom UI component.</li><br>
+                                    <li><b style="color: aqua;">identity.email</b> : To display the logged in user`s email inside the extension.</li><br>
+                                    <li><b style="color: aqua;">*://*/nifi/*</b> : To inject content scripts on url`s matching a Nifi instance`s url pattern.</li><br>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row gx-4 text-center">
                 <div class="col">
                     <div class="card text-bg-dark">
                         <h5 class="card-header" style="color: aqua;">Contact me</h5>
@@ -47,9 +101,8 @@
                     </div>
                 </div>
             </div>
-            <br><br><br><br>
         </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
